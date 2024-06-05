@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMNI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script defer src="{{ url_for('static', filename='app.js') }}"></script>
+</head>
+<body>
+    <div id="app">
+        <div id="chat-container">
+            <div id="chat-window"></div>
+            <input type="text" id="user-input" placeholder="Type your prompt here...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+</body>
+</html>
